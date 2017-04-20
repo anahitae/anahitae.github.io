@@ -113,7 +113,7 @@ h5 {
     margin-top: 20px;
     padding: 2px 2px 2px;
     float: left;
-    margin-left: 23px;
+    margin-left: 22px;
 }
 
 p {
@@ -133,6 +133,11 @@ p {
 .left {
     text-align: left;
     margin-top: 200px;
+}
+
+.left2 {
+    text-align: left;
+    font-size: 30px;
 }
 
 .margin {
@@ -378,6 +383,7 @@ aside {
     
 }
 .gray {
+    padding-top: 50px;
     font-size: 30px;
     margin-bottom: 80px;
 }
@@ -405,12 +411,23 @@ aside {
 }
 
 .move {
+    width: 560px;
     margin-top: 40px;
     border-top: 3px solid #cdcfd0;
     padding-top: 20px;
 
     
 }
+
+.warrenty {
+    width: 560px;
+}
+
+.delivery {
+    width: 560px;
+}
+
+
 .price {
     float: right;
     font-size: 35px;
@@ -449,7 +466,7 @@ aside {
     
 }
 
-.size {
+.sizes {
     height: 117px;
     margin-top: 0;
     margin-left: 0;
@@ -584,7 +601,7 @@ ul {
 
 .list {
     margin-left: 20px;
-    
+    list-style:disc
 }
 
 .top {
@@ -705,6 +722,7 @@ footer {
         width: 620px;
         height: 410px;
         float:left;
+        margin-top: 50px;
         margin-left: 0;
         margin-right: 0;
         padding:0;
@@ -718,9 +736,9 @@ footer {
     margin-left: 170px;
     margin-right: 190px;
     padding-top: 0;
-
         
     }   
+    
 
     .buttonstyle {
         margin-left: 200px;
@@ -803,6 +821,7 @@ footer {
     
     .cr {
         float: right;
+        margin-top: -2px;
         margin-right: 40px;
     }
     
