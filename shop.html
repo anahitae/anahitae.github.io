@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+    <head>
+        <meta charset="UTF-8" />
+        
+        <!--Don't forget to fill these out!-->
+        <title>shop</title>
+        <meta name="description" content="Description for site goes here." />
+        
+        
+        <!--Links to the main Style Sheet-->
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        
+        <!--Links to a modernizer JavaScript file that fixes a lot of issues with old browsers-->
+        <script src="js/modernizr.js"></script>
+        
+        <!--Makes the site so it won't scale down on small devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    </head>
+
+    <body>
+     
+        <div class="wrapper">
+            <div class="fixed">
+                <a href="#" onclick="toggle_visibility('menu');">
+                    <nav class="menu_button nodesk">&#x2630;</nav>
+                </a>
+                
+                <a href="index.html">
+                <img class="logo" alt="logo"src="images/logo.png"></a>
+                <img class="navicon" alt="login icon" src="images/login.png">
+                <img class="navicon" alt="cart" src="images/cart.png">
+            </div>             
+        
+                
+                
+        <nav id="menu">
+                <ul>
+                    <a href="#"><li>ABOUT US</li></a>
+                    <a href="#"><li>MBLOK</li></a>
+                    <a href="app.html"><li>THE APP</li></a>
+                    <a href="#"><li>LOGIN</li></a>
+                </ul>
+            </nav>
+                
+            
+            <header>
+                
+                 <h2>MBLOK- LIMITED EDITION</h2>
+            
+            </header>
+            
+            
+            
+            <div class="product">
+                <img alt="mblockblack" src="images/mblokblack.jpg">
+            </div>
+            
+            
+            
+            <div class="options">
+                <div class="colors">
+                    <h4>COLOR:</h4>
+                        <a href="#"><div class="black">
+                           </div></a>
+                        <a href="#"><div class="burgundy"></div></a>
+                        <a href="#"><div class="purple"></div></a>
+                        <a href="#"><div class="olive"></div></a>
+                        <a href="#"><div class="teal">
+                        </div></a>
+                        <a href="#"><div class="brown"></div></a>
+                        <a href="#"><div class="magenta"></div></a>
+                </div>
+                    
+                <div class="size">
+                    <h4>SIZE:</h4>
+                    <h5 class="align">8GB</h5>
+                    <h5>16GB</h5>
+                    <h5>32GB</h5>
+                    <h5>64GB</h5>
+                    <h5>128GB</h5>
+                    <h5>256GB</h5>
+                    
+                </div>
+                
+                <div class="bluetooth">
+                    <h4>BLUETOOTH:</h4>
+                    <h5 class="align">20ft</h5>
+                    <h5>40ft</h5>
+                    <h5>60ft</h5>
+                    <h5>80ft</h5>
+                    <h5>100ft</h5>
+                </div>
+                
+                <div class="extras">
+                    <h4>EXTRAS:</h4>
+                    <h5 class="align">Standard</h5>
+                    <h5>Waterproof</h5>
+                    
+                </div>
+                
+                <div class="material">
+                    <h4>MATERIAL:</h4>
+                    <h5 class="align">Aluminium</h5>
+                    <h5>Wood</h5>
+                </div>
+                
+                <div class="quantity">
+                    <h4>QUANTITY:</h4>
+                    <img class="top" alt="quantity" src="images/quantity.png">
+                </div>
+            
+            </div>
+
+                 <div class="total">
+                    <h4>SUBTOTAL:</h4>
+                    <h5 class="price">$75USD</h5>
+                     
+                <button class="buttonstyle2">ADD TO             CART</button>
+                     
+                <ul class="list">
+                     <li> Large storage of up to 256 GB in a tiny package</li>
+                     <li>Transfer speeds up tp 24Mbit/s with Bluetooth Smart Ready</li>
+                    <li>Long battery life of up to 300hr</li>
+                    <li>Put thousands of different files: doccuments, music, pictures 	   and videos on your tablet, smartphone - offline. </li>
+                    <li>MBLOK storage in private, secure, and protected with 128 bit encryption. </li>
+                    </ul>
+                    
+                    <div class="delivery">
+                        <h4 class="move">DELIVERY</h4>
+                        <img class="collapse" alt="collapse" src="images/collapse.png">
+                        <p class="mr">Regular Fedex Smartpost (4- 10 days)
+                        </p>
+                        <p class="indent">Free</p>
+                        <p class="mr">Express via Fedex (2- 3 days, tracking)
+                        </p>
+                        <p class="indent">$6.00</p>
+                        
+                    <div class="warrenty">
+                        <h4>ONE YEAR WARRENTY</h4>
+                        <img class="collapse" alt="expand" src="images/expand.png">
+                        
+                        </div>
+                        
+                    
+                    </div>
+                </ul>
+                </div>
+           
+
+                
+       
+            
+        
+            
+
+            
+            
+        <footer>
+            <h2 class="links">CONTACT US</h2>
+            <h2 class="links">FAQ</h2>
+            <h2 class="links">ABOUT US</h2>
+            <h2 class="links">PRODUCTS</h2>
+            <h2 class="links">FOLLOW US</h2>
+            
+        <div class="sml">
+            <a href="https://www.instagram.com" target="_blank"><img class="socialmedia" alt="Instagram" src="images/insta.png"></a>
+            <a href="https://www.facebook.com" target="_blank"><img class="socialmedia" alt="facebook" src="images/facebook.png"></a>
+            <a href="https://www.twitter.com" target="_blank"><img class="socialmedia"alt="Twitter" src="images/twitter.png"></a>
+        </div>   
+            
+             <h2 class="cr">Copyright &copy; MBLOK 2017</h2>
+            
+            
+        </footer>
+            
+        
+                
+                
+        </div>
+        
+         <script type="text/javascript">
+            function toggle_visibility(id) {
+               var e = document.getElementById(id);
+               if(e.style.display == 'block')
+                  e.style.display = 'none';
+               else
+                  e.style.display = 'block';
+            }
+        </script>
+        
+</body>
+</html>
