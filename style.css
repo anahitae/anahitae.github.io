@@ -642,6 +642,10 @@ footer {
     margin-top: 20px;
 }
 
+.nodesk {
+    display: none;
+}
+
 
 @media screen and (min-width: 641px) {
     
