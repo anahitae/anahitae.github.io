@@ -57,8 +57,7 @@ html {
 }
 
 .wrapper {
-    width: 640px;
-/*    min-width: 640px;*/
+    width:100%;
     margin: 0 auto;
     position: relative;
     
@@ -73,7 +72,7 @@ h1 {
     letter-spacing: 1px;
     line-height: 1.5em; 
     text-align: center;
-    margin-top: 30px
+    margin-top: 30px;
 }
 
 h2 {
@@ -113,7 +112,7 @@ h5 {
     margin-top: 20px;
     padding: 2px 2px 2px;
     float: left;
-    margin-left: 22px;
+    margin-left: 4.5%;
 }
 
 p {
@@ -141,13 +140,13 @@ p {
 }
 
 .margin {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
 .last {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 6%;
+    margin-right: 6%;
     padding-top: 1410px;
 }
 
@@ -168,7 +167,7 @@ a {
 nav {
     overflow: hidden;
     float: left;
-    margin-right: 70px;
+    margin-right: 10%;
 }
 
 .menu_button {
@@ -222,15 +221,15 @@ a {
     margin-left: 20px;
     margin-top: 1.5em;
     margin-right: 70px;
-    width: 140px;
+    width: 23%;
     float: left;
     
 }
 
 .navicon {
     margin-top: 2.25em;
-    margin-left: 25px;
-    width: 50px ;
+    margin-left: 4%;
+    width: 8% ;
     float: left;
     
 }
@@ -238,26 +237,25 @@ a {
 header {
     position: relative;
     top: 120px;
-    
 }
 
 .cta {
     position: absolute;
     bottom: -60px;
-    margin-left: 120px;
+    margin-left: 20%;
     align-content: center;
     text-align: center;
 }
 
 main {
-   padding-left: 40px;
+   padding-left: 7%;
     margin-top: 30px;
-    padding-right: 40px;
+    padding-right: 7%;
 }
 
 .box {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 7%;
+    margin-right: 7%;
     align-content: center;
 }
 
@@ -276,7 +274,7 @@ button {
     font-size: 16px;
     letter-spacing: 5px;
     border: 3px  solid white;
-    width: 170px;
+    width: 35%;
     height: 55px;
     text-align: center;
     
@@ -288,9 +286,9 @@ button:hover {
 }
 
 .size {
-    width: 558px;
+    width: 90%;
     height: 320px;
-    margin-left: 40px;
+    margin-left: 7%;
     margin-top: 50px;
 }
 
@@ -298,9 +296,9 @@ button:hover {
 aside {
     background-color: #e4e5e5;
     padding-top: 40px;
-    width: 558px;
+    width: 90%;
     height: 280px;
-    margin-left: 40px;
+    margin-left: 7%;
 }
 
 .info {
@@ -315,14 +313,14 @@ aside {
     height: 65px;
     font-size: 14px;
     margin-top: 80px;
-    margin-left: 170px
+    margin-left: 31%;
 }
 
 .icon {
     margin: 0 auto;
     margin-bottom: 20px;
     margin-top: 150px;
-    width: 121px;
+    width: 24%;
 }
 
 
@@ -333,7 +331,7 @@ aside {
 }
 
 .buttonbox {
-    margin-left: 40px;
+    margin-left: 6%;
     margin-top: 70px;
     margin-bottom: 400px;
     
@@ -342,7 +340,7 @@ aside {
 
 .appbutton {
     float: left;
-    margin-right: 56px;
+    margin-right: 10%;
 }
 
 .appbutton:hover {
@@ -389,29 +387,28 @@ aside {
 }
 
 .image {
-    width: 650px;
+    width: 100%;
     margin-bottom: 30px;
     margin-top: 80px;
 }
 
 .align {
     margin-left: 0px;
-    border: solid 2px gray;
 }
 
 .indent {
-    margin-left: 60px;
+    margin-left: 11%;
     margin-top: 10px;
     margin-bottom: -20px
 }
 
 .mr {
     margin-top: 30px;
-    margin-left: 25px;
+    margin-left: 5%;
 }
 
 .move {
-    width: 560px;
+    width: 100%;
     margin-top: 40px;
     border-top: 3px solid #cdcfd0;
     padding-top: 20px;
@@ -420,11 +417,11 @@ aside {
 }
 
 .warrenty {
-    width: 560px;
+    width: 100%;
 }
 
 .delivery {
-    width: 560px;
+    width: 100%;
 }
 
 
@@ -438,22 +435,22 @@ aside {
 
 .total {
     height: 1100px;
-    margin-left: 40px;
+    margin-left: 7%;
 }
 
 .product {
-    width: 560px;
+    width: 90%;
     height: 370px;
     margin-top: 200px;
-    margin-left: 40px;
+    margin-left: 7%;
    margin-bottom: 30px;
 }
 
 .options {
     background-color: #e4e5e5 ;
-    width: 560px;
+    width: 90%;
     height: 750px;
-    margin-left: 40px;
+    margin-left: 7%;
     margin-bottom: 30px;
     
 }
@@ -462,31 +459,34 @@ aside {
     height: 120px;
     border-bottom: 2px  solid #8f9194;
     width: 506px;
-    margin-left: 25px;
+    margin-left: 5%;
     
 }
 
 .sizes {
     height: 117px;
     margin-top: 0;
-    margin-left: 0;
     border-bottom: 2px  solid #8f9194;
     width: 506px;
-    margin-left: 25px;
+    margin-left: 5%;
+}
+
+h5:hover {
+    border: solid 2px gray;
 }
 
 .bluetooth {
     height: 113px;
     border-bottom: 2px  solid #8f9194;
     width: 506px;
-    margin-left: 25px;
+    margin-left: 5%;
 }
 
 .extras {
     height: 115px;
     border-bottom: 2px  solid #8f9194;
     width: 506px;
-    margin-left: 25px;
+    margin-left: 5%;
     
 }
 
@@ -494,18 +494,19 @@ aside {
     height: 118px;
     border-bottom: 2px  solid #8f9194;
     width: 506px;
-    margin-left: 25px;
+    margin-left: 5%;
 }
 
 .quantity {
-    background-color: ;
     height: 167px;
     width: 506px;
-    margin-left: 25px;
+    margin-left: 5%;
 }
 
+
+
 .black{
-    width: 55px;
+    width: 10%;
     height: 19px;
     float: left;
     margin-top: 20px;
@@ -513,7 +514,7 @@ aside {
 }
 
 .burgundy {
-    width: 55px;
+    width: 10%;
     height: 19px;
     float: left;
     margin-top: 20px;
@@ -523,7 +524,7 @@ aside {
 }
 
 .purple {
-    width: 55px;
+    width: 10%;
     height: 19px;
     float: left;
     margin-top: 20px;
@@ -532,7 +533,7 @@ aside {
 }
 
 .olive {
-    width: 55px;
+    width: 10%;
     height: 19px;
     float: left;
     margin-top: 20px;
@@ -541,7 +542,7 @@ aside {
 }
 
 .teal {
-    width: 55px;
+    width: 10%;
     height: 19px;
     float: left;
     margin-top: 20px;
@@ -550,7 +551,7 @@ aside {
 }
 
 .brown {
-    width: 55px;
+    width: 10%;
     height: 19px;
     float: left;
     margin-top: 20px;
@@ -559,7 +560,7 @@ aside {
 }
 
 .magenta {
-    width: 55px;
+    width: 10%;
     height: 19px;
     float: left;
     margin-top: 20px;
@@ -570,7 +571,7 @@ aside {
 .buttonstyle2 {
     background-color: black;
     border: none;
-    width: 559px;
+    width: 97%;
     height: 62px;
     margin-top: 70px;
     font-size: 20px;
@@ -596,11 +597,11 @@ ul {
     margin-top: 50px;
     font-size: 18px;
     line-height: 40px;
-    margin-right: 40px;
+    margin-right: 7%;
 }
 
 .list {
-    margin-left: 20px;
+    margin-left: 4%;
     list-style:disc
 }
 
@@ -612,7 +613,7 @@ footer {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #3e3e3f;
-    width: 640px;
+    width: 100%;
 }
 
 .links {
@@ -655,15 +656,26 @@ footer {
 
     }
     
+    .navicon {
+        width: auto;
+        margin-left: 2%;
+    }
+    
     header {
         width: 100%;
-        margin-left: 40px;
     }
     
     p {
         margin-left: 0;
     }
-
+    
+    .product {
+        width: 46%;
+    }
+    
+    .options {
+        width: 46%;
+    }
     .color {
         float: right;
         font-size: 24px;
@@ -673,9 +685,8 @@ footer {
     }
     
     button {
-        margin-left: 600px;
+        margin-left: 10%;
         margin-bottom: 55px;
-        width: 300px;
         height: 80px;
     }
     
@@ -716,13 +727,13 @@ footer {
        float: right;
         margin-left: 0;
         margin-top: 50px;
-        width: 580px;
+        width: 48.3%;
         height: 310px;
         padding-top: 100px
     }
     
     .size {
-        width: 620px;
+        width: 51.6%;
         height: 410px;
         float:left;
         margin-top: 50px;
@@ -736,15 +747,27 @@ footer {
     float: left;
     margin-bottom: 140px;
     margin-top: -300px;
-    margin-left: 170px;
-    margin-right: 190px;
+    margin-left: 14%;
+    margin-right: 11%;
     padding-top: 0;
         
     }   
     
+    
+    .total {
+        width: 45%;
+        float: right;
+        margin-top: -1100px;
+        margin-left:20%;
+        
+    }
+    
+    .buttonstyle2 {
+    margin-left: 0px;
+    }
 
     .buttonstyle {
-        margin-left: 200px;
+        margin-left: 35%;
     }
     
     .iconclass {
@@ -755,32 +778,38 @@ footer {
     .box {
         margin-top: -75px;
         width: 360px;
-        margin-right: 43px;
+        margin-right: 1%;
         float: left;
         margin-bottom: 80px;
-        margin-left: -3px;
+        margin-left: 2%;
 
     }
     
     .app {
         float: left;
-        margin-right: 22px;
+        margin-right: 2%;
     }
     
     .buttonbox {
         margin-top: 90px;
     }
     
+    .appbutton {
+        margin-left: 5%;
+        margin-right: 0%;
+        width: 20%;
+    }
+    
     .iconlist1 {
         margin-top: 110px;
-        width:600px;
+        width:50%;
         float: left
     }
     
     
     .iconlist2 {
         margin-top: 110px;
-        width: 600px;
+        width: 50%;
         float: right;
     }
     
@@ -796,12 +825,12 @@ footer {
     }
     
     .icon2 {
-        width: 90px;
+        width: 15%;
     }
     
     
     .image {
-        margin-left: 170px;
+        margin-left: 14%;
         width: 70%;
         float: left;
         margin-top: -100px;
@@ -817,7 +846,7 @@ footer {
     .sml {
         float: left;
         width: 25%;
-        margin-left: 40px;
+        margin-left: 5%;
         margin-top: -50px;  
 
     }
@@ -825,7 +854,7 @@ footer {
     .cr {
         float: right;
         margin-top: -2px;
-        margin-right: 40px;
+        margin-right: 5%;
     }
     
     footer {
@@ -833,5 +862,4 @@ footer {
     }
 
 
-    
     
